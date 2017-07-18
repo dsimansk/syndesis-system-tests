@@ -15,6 +15,7 @@
 #   GITHUB_OAUTH_CLIENT_SECRET
 
 echo $(env)
+echo "${SYNDESIS_E2E_SECRET}"
 
 #Configure the SYNDESIS_TEMPLATE_TYPE
 if [ -z "${SYNDESIS_TEMPLATE_TYPE}" ]; then
