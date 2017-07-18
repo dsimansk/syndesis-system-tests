@@ -14,6 +14,8 @@
 #   GITHUB_OAUTH_CLIENT_ID
 #   GITHUB_OAUTH_CLIENT_SECRET
 
+echo $(env)
+
 #Configure the SYNDESIS_TEMPLATE_TYPE
 if [ -z "${SYNDESIS_TEMPLATE_TYPE}" ]; then
     SYNDESIS_TEMPLATE_TYPE="syndesis-ci"
